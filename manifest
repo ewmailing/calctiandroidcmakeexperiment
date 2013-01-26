@@ -13,6 +13,6 @@ copyright: Copyright (c) 2013 by Your Company
 # these should not be edited
 name: calc
 moduleid: org.appcelerator.calc
-guid: 51410f82-7e0c-4f19-90c1-e0c4cdbe3a53
+guid: f6fbfa73-1d92-4103-b8bc-c9e2aa60844f
 platform: android
 minsdk: 2.1.4.GA

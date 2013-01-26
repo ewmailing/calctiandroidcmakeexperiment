@@ -15,11 +15,9 @@ import org.appcelerator.titanium.TiApplication;
 import org.appcelerator.kroll.common.Log;
 import org.appcelerator.kroll.common.TiConfig;
 
-
 @Kroll.module(name="Calc", id="org.appcelerator.calc")
 public class CalcModule extends KrollModule
 {
-
 	// Standard Debugging variables
 	private static final String LCAT = "CalcModule";
 	private static final boolean DBG = TiConfig.LOGD;
@@ -44,7 +42,8 @@ public class CalcModule extends KrollModule
 	public String example()
 	{
 		Log.d(LCAT, "example called");
-		return "hello world";
+		//return "hello world";
+		return new com.theveganrobot.cmake.HelloWorld().stringFromJNI();
 	}
 	
 	// Properties
@@ -61,5 +60,6 @@ public class CalcModule extends KrollModule
 		Log.d(LCAT, "set example property: " + value);
 	}
 
+	
 }
 
